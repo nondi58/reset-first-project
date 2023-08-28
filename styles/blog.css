@@ -1,0 +1,111 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+.container {
+
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text-primary {
+
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: aliceblue;
+    font-size: larger;
+
+}
+
+.nav-title {
+    color: #181818;
+    justify-content: center;
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    justify-content: center;
+
+}
+
+.header-option {
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* banner-option */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner.image-class {
+    background-image: url(/images/header_bg.png);
+    width: 500px;
+
+}
+
+.head-grreting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.head-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+
+}
+
+.head-paragraph {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+/* banner-option-off */
